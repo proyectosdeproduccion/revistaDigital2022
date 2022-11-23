@@ -1,0 +1,113 @@
+.Imagen{ 
+    width: 40%;
+    border-radius: 9px;
+    ;
+
+}
+.tam{
+    width: 100%;
+    border-radius: 9px;
+    border: 3px solid rgb(210, 179, 78);
+}  
+.tam1{
+    width: 98%;
+    border-radius: 9px;
+    border: 3px solid rgb(210, 179, 78);
+}  
+
+.tam2{
+    width: 85%;
+    border-radius: 9px;
+    border: 3px solid rgb(210, 179, 78);
+}  
+.tam3{
+    
+    margin-top: 1em;
+    width: 80%;
+    border-radius: 9px;
+    text-align: center;
+    border: 3px solid rgb(210, 179, 78);
+}
+.tam4{
+    margin-top: 1em;
+    width: 65%;
+    border-radius: 9px;
+    text-align: center;
+    border: 3px solid rgb(210, 179, 78);
+}
+.tam5{
+    margin-top: 1em;
+    width: 60%;
+    border: 3px solid rgb(210, 179, 78);
+    border-radius: 9px;
+}
+
+.tam6{
+    margin-top: 1em;
+    width: 45%;
+    border: 3px solid rgb(210, 179, 78);
+    border-radius: 9px;
+}
+
+
+
+.grilla{
+    display: grid;
+    grid-template-areas: "encabezado encabezado encabezado encabezado encabezado"
+                           "principal principal principal principal principal"
+                           "pie pie pie pie pie";
+                           height: 100vh;
+}
+
+.header{
+    grid-area: encabezado ;
+    background-color: #dd3636;
+
+}
+
+.principal{
+    grid-area: principal ;
+    background-color: #f3f6f6;
+    height: 80vh;
+
+}
+
+.pie{
+    grid-area: pie ;
+  
+}
+
+.secundario{
+    grid-area: secundario ;
+    
+}
+
+h1{
+    text-align: center;
+       
+}
+
+.titulosec{
+    margin-top: 1em;
+    font-size: 45px;
+    text-align: center;
+
+
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.divimagen{
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+

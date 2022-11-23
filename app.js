@@ -11,6 +11,9 @@ let indexSeccionActiva;
 // Observer
 const observer = new IntersectionObserver((entradas, observer) => {
 
+
+	console.log(tamañoIndicador)
+
 	entradas.forEach(entrada => {
 		if(entrada.isIntersecting){
 			// Obtenemos cual es la seccion que esta entrando en pantalla.

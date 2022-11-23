@@ -1,6 +1,9 @@
 html {
 	scroll-behavior: smooth;
+	background: #f3f6f6;
+	
 }
+
 
 * {
 	padding: 0;
@@ -13,15 +16,17 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-a {
-	text-decoration: none;
-}
+
+
+
+
 
 .hero {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
 	
 }
 
@@ -43,6 +48,11 @@ nav {
 	position: sticky;
 	top: 0;
 	overflow: hidden;
+}
+
+nav #menu {
+
+	color:#000;
 }
 
 nav a {
@@ -110,6 +120,14 @@ nav .indicador {
 	width: 100%;
 	vertical-align: top;
 	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+div a:visited{
+	color: #113CFC;
 }
 
 
